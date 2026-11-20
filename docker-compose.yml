@@ -1,0 +1,6 @@
+services:
+  web:
+    image: onsgaaloul22/monapp:latest
+    ports:
+      - "8086:80"
+    restart: unless-stopped
